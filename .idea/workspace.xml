@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e678397a-d868-49ea-9570-acaa2bd92a8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170802023535_add_email_and_rotting_to_zombies.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170802023935_remove_age_from_zombies.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170802024257_drop_zombies_table.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zombies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zombies_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/zombie.rb" afterPath="$PROJECT_DIR$/app/models/zombie.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zombies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/zombies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zombies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/zombies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -18,13 +25,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TwitterForZombies@Development__TwitterForZombies.coverage" NAME="Development: TwitterForZombies Coverage Results" MODIFIED="1501640885736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
-    <SUITE FILE_PATH="coverage/TwitterForZombies@db_migrate__TwitterForZombies.coverage" NAME="db:migrate: TwitterForZombies Coverage Results" MODIFIED="1501641407441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
+    <SUITE FILE_PATH="coverage/TwitterForZombies@db_reset__TwitterForZombies.coverage" NAME="db:reset: TwitterForZombies Coverage Results" MODIFIED="1501674164188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
+    <SUITE FILE_PATH="coverage/TwitterForZombies@db_create__TwitterForZombies.coverage" NAME="db:create: TwitterForZombies Coverage Results" MODIFIED="1501674259236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
+    <SUITE FILE_PATH="coverage/TwitterForZombies@db_rollback__TwitterForZombies.coverage" NAME="db:rollback: TwitterForZombies Coverage Results" MODIFIED="1501673811991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
+    <SUITE FILE_PATH="coverage/TwitterForZombies@db_migrate__TwitterForZombies.coverage" NAME="db:migrate: TwitterForZombies Coverage Results" MODIFIED="1501674510891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
+    <SUITE FILE_PATH="coverage/TwitterForZombies@Development__TwitterForZombies.coverage" NAME="Development: TwitterForZombies Coverage Results" MODIFIED="1501680123626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TwitterForZombies" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20170802024257_drop_zombies_table.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20170802024257_drop_zombies_table.rb">
+      <file leaf-file-name="zombie.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/zombie.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -44,10 +54,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20170802023535_add_email_and_rotting_to_zombies.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170802023935_remove_age_from_zombies.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170802024257_drop_zombies_table.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170802114647_add_email_and_rotting_to_zombies.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170802115709_create_brains.rb" />
+        <option value="$PROJECT_DIR$/app/models/brain.rb" />
+        <option value="$PROJECT_DIR$/app/views/zombies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/zombies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/zombies_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170802142148_create_assignments.rb" />
+        <option value="$PROJECT_DIR$/app/models/assignment.rb" />
+        <option value="$PROJECT_DIR$/app/models/zombie.rb" />
+        <option value="$PROJECT_DIR$/app/models/role.rb" />
       </list>
     </option>
   </component>
@@ -65,8 +82,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="538" />
-    <option name="y" value="161" />
+    <option name="x" value="555" />
+    <option name="y" value="213" />
     <option name="width" value="1361" />
     <option name="height" value="862" />
   </component>
@@ -88,8 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -103,10 +118,23 @@
               <item name="TwitterForZombies" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TwitterForZombies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TwitterForZombies" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TwitterForZombies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TwitterForZombies" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate: TwitterForZombies">
+  <component name="RunManager" selected="Rails.Development: TwitterForZombies">
     <configuration name="Development: TwitterForZombies" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="TwitterForZombies" />
@@ -179,6 +207,30 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
+    <configuration name="db:create: TwitterForZombies" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="TwitterForZombies" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
     <configuration name="db:migrate: TwitterForZombies" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="TwitterForZombies" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -197,6 +249,54 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="db:reset: TwitterForZombies" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="TwitterForZombies" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:reset" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="db:rollback: TwitterForZombies" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="TwitterForZombies" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:rollback" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -249,16 +349,22 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
-    <list size="5">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: TwitterForZombies" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: TwitterForZombies" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: TwitterForZombies" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: TwitterForZombies" />
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: TwitterForZombies" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:rollback: TwitterForZombies" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:reset: TwitterForZombies" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:create: TwitterForZombies" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: TwitterForZombies" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:create: TwitterForZombies" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:reset: TwitterForZombies" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:rollback: TwitterForZombies" />
       </list>
     </recent_temporary>
   </component>
@@ -276,33 +382,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501634893008</updated>
-      <workItem from="1501634894171" duration="1442000" />
+      <workItem from="1501634894171" duration="1868000" />
+      <workItem from="1501671261589" duration="7895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1442000" />
+    <option name="totallyTimeSpent" value="9763000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="538" y="161" width="1361" height="862" extended-state="0" />
+    <frame x="555" y="213" width="1361" height="862" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24951267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6078915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6078915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60295933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6658446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8273736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -317,7 +433,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/app/models/brain.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501675881000" expanded="true" signature="11:56" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/zombies/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <marker date="1501682639000" expanded="true" signature="21:960" ph="do ... end" />
+            <marker date="1501682639000" expanded="true" signature="36:346" ph="if ... end" />
+            <marker date="1501682639000" expanded="true" signature="92:336" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="207:325" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="251:311" ph="do ... end" />
+            <marker date="1501682639000" expanded="true" signature="371:435" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="458:519" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="542:606" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="634:896" ph="do ... end" />
+            <marker date="1501682639000" expanded="true" signature="675:768" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="793:886" ph="..." />
+            <marker date="1501682639000" expanded="true" signature="923:952" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -325,135 +472,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1501635027000" expanded="true" signature="284:321" ph="do ... end" />
-            <marker date="1501635027000" expanded="true" signature="342:452" ph="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501640651000" expanded="true" signature="30:159" ph="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/zombie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501640651000" expanded="true" signature="5:159" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="175:288" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="294:359" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="363:479" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="393:415" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="427:477" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="484:510" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="515:584" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="590:645" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="613:643" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="655:674" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="695:757" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="778:1165" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="916:1103" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="1113:1163" ph="{...}" />
-            <marker date="1501640651000" expanded="true" signature="1173:1194" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170802022411_create_zombies.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170802142048_create_assignments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170802142224_create_roles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1501640651000" expanded="true" signature="19:194" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="63:190" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="90:184" ph="do ... end" />
+            <marker date="1501683744000" expanded="true" signature="17:152" ph=" ... end" />
+            <marker date="1501683744000" expanded="true" signature="61:148" ph=" ... end" />
+            <marker date="1501683744000" expanded="true" signature="86:142" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501684029000" expanded="true" signature="0:721" ph="##..." />
+            <marker date="1501684029000" expanded="true" signature="776:1835" ph="do ... end" />
+            <marker date="1501684029000" expanded="true" signature="826:1100" ph="do ... end" />
+            <marker date="1501684029000" expanded="true" signature="1143:1373" ph="do ... end" />
+            <marker date="1501684029000" expanded="true" signature="1415:1532" ph="do ... end" />
+            <marker date="1501684029000" expanded="true" signature="1576:1830" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1501684236000" expanded="true" signature="10:101" ph=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/zombies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <marker date="1501640651000" expanded="true" signature="23:1863" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="120:156" ph="##..." />
-            <marker date="1501640651000" expanded="true" signature="168:200" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="204:244" ph="##..." />
-            <marker date="1501640651000" expanded="true" signature="255:261" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="293:324" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="360:366" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="370:408" ph="##..." />
-            <marker date="1501640651000" expanded="true" signature="421:827" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="478:821" ph="do ... end" />
-            <marker date="1501640651000" expanded="true" signature="496:813" ph="if ... end" />
-            <marker date="1501640651000" expanded="true" signature="532:599" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="620:673" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="705:720" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="741:803" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="831:883" ph="##..." />
-            <marker date="1501640651000" expanded="true" signature="896:1274" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="912:1268" ph="do ... end" />
-            <marker date="1501640651000" expanded="true" signature="930:1260" ph="if ... end" />
-            <marker date="1501640651000" expanded="true" signature="983:1050" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1071:1119" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1151:1167" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1188:1250" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1278:1324" ph="##..." />
-            <marker date="1501640651000" expanded="true" signature="1338:1530" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="1374:1524" ph="do ... end" />
-            <marker date="1501640651000" expanded="true" signature="1404:1477" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1496:1516" ph="{ ... }" />
-            <marker date="1501640651000" expanded="true" signature="1634:1683" ph=" ... end" />
-            <marker date="1501640651000" expanded="true" signature="1795:1859" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="23:2009" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="120:156" ph="##..." />
+            <marker date="1501683407000" expanded="true" signature="168:217" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="221:261" ph="##..." />
+            <marker date="1501683407000" expanded="true" signature="272:278" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="310:341" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="377:383" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="387:425" ph="##..." />
+            <marker date="1501683407000" expanded="true" signature="438:881" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="494:875" ph="do ... end" />
+            <marker date="1501683407000" expanded="true" signature="512:867" ph="if ... end" />
+            <marker date="1501683407000" expanded="true" signature="586:653" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="674:727" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="759:774" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="795:857" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="885:937" ph="##..." />
+            <marker date="1501683407000" expanded="true" signature="950:1328" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="966:1322" ph="do ... end" />
+            <marker date="1501683407000" expanded="true" signature="984:1314" ph="if ... end" />
+            <marker date="1501683407000" expanded="true" signature="1037:1104" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1125:1173" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1205:1221" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1242:1304" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1332:1378" ph="##..." />
+            <marker date="1501683407000" expanded="true" signature="1392:1584" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="1428:1578" ph="do ... end" />
+            <marker date="1501683407000" expanded="true" signature="1458:1531" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1550:1570" ph="{ ... }" />
+            <marker date="1501683407000" expanded="true" signature="1688:1737" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="1849:1921" ph=" ... end" />
+            <marker date="1501683407000" expanded="true" signature="1943:2005" ph=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170802023535_add_email_and_rotting_to_zombies.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170802142148_create_assignments.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <marker date="1501641380000" expanded="true" signature="33:188" ph=" ... end" />
-            <marker date="1501641380000" expanded="true" signature="77:184" ph=" ... end" />
+            <marker date="1501683795000" expanded="true" signature="23:270" ph=" ... end" />
+            <marker date="1501683795000" expanded="true" signature="67:266" ph=" ... end" />
+            <marker date="1501683795000" expanded="true" signature="98:184" ph="do ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170802023935_remove_age_from_zombies.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/assignment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <marker date="1501641685000" expanded="true" signature="26:177" ph=" ... end" />
-            <marker date="1501641685000" expanded="true" signature="66:115" ph=" ... end" />
-            <marker date="1501641685000" expanded="true" signature="127:173" ph=" ... end" />
+            <marker date="1501683827000" expanded="true" signature="16:80" ph=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170802024257_drop_zombies_table.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/zombie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />

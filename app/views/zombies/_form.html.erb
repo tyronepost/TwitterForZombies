@@ -26,6 +26,18 @@
     <%= f.number_field :age %>
   </div>
 
+  <%= fields_for(:brain) do |brain_form| %>
+    <div class="field">
+      <%= brain_form.label :status %>
+      <%= brain_form.text_field :status  %>
+    </div>
+
+    <div class="field">
+      <%= brain_form.label :flavor %>
+      <%= brain_form.text_field :flavor  %>
+    </div>
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

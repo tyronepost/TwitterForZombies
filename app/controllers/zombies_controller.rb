@@ -4,7 +4,7 @@ class ZombiesController < ApplicationController
   # GET /zombies
   # GET /zombies.json
   def index
-    @zombies = Zombie.all
+    @zombies = Zombie.includes(:brain).all
   end
 
   # GET /zombies/1
@@ -25,9 +25,8 @@ class ZombiesController < ApplicationController
   # POST /zombies.json
   def create
     @zombie = Zombie.new(zombie_params)
-
     respond_to do |format|
-      if @zombie.save
+      if @zombie.save && @zombie.create_brain(brain_params)
         format.html { redirect_to @zombie, notice: 'Zombie was successfully created.' }
         format.json { render :show, status: :created, location: @zombie }
       else
@@ -69,6 +68,10 @@ class ZombiesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def zombie_params
-      params.require(:zombie).permit(:name, :bio, :age)
+      params.require(:zombie).permit(:name, :bio, :age, :brain)
+    end
+
+    def brain_params
+      params.require(:brain).permit(:status, :flavor)
     end
 end
